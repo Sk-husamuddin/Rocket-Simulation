@@ -26,13 +26,12 @@ I built this project to learn reinforcement learning (RL) from zero. A small roc
 ## Demo videos
 
 - PPO landing:
-
-https://github.com/user-attachments/assets/901fce1d-313c-4e02-8506-8c1015905923
-
+  
+https://github.com/user-attachments/assets/0c202af7-96a4-4097-8a9c-66384a5dc7f6
 
 - DQN landing:
   
-https://github.com/user-attachments/assets/0c202af7-96a4-4097-8a9c-66384a5dc7f6
+https://github.com/user-attachments/assets/901fce1d-313c-4e02-8506-8c1015905923
 
 ## How the problem works
 
