@@ -1,0 +1,49 @@
+# ---------- Python virtual environment (biggest cause of "too many changes") ----------
+rl-env/
+venv/
+.venv/
+env/
+
+# ---------- Python cache / build files ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ---------- Training outputs (large, can be regenerated) ----------
+logs/                 # TensorBoard logs
+checkpoints/          # PPO snapshots saved every 100k steps
+runs/
+*.tfevents.*
+
+# ---------- Raw recorded videos ----------
+# Keep only your chosen demo clips in a separate folder (e.g. demo/) and commit those
+videos/
+videos_rl/
+videos_rules/
+videos_human/
+*.mp4
+!demo/*.mp4
+
+# ---------- Secrets (never commit these) ----------
+.env
+.env.*
+*.key
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Editor / OS files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Notes ----------
+# ppo_lunar.zip, dqn_lunar.zip and best_dqn/ are small, so they are kept
+# so that others can run watch_trained.py without retraining.
+# To exclude trained models instead, uncomment the lines below:
+# *.zip
+# best_dqn/
